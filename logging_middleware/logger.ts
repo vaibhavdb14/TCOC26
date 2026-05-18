@@ -3,7 +3,7 @@ export async function Log(
     level: string,
     package_name : string,
     message: string,
-): Promise<void> {
+): Promise<void> {  
     try{
         await fetch("http://4.224.186.213/evaluation-service/logs", {
             method: "POST",
