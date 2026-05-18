@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+  margin-bottom: 20px;
+}
+
+.chip {
+  margin-bottom: 10px;
+}
